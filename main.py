@@ -6,11 +6,10 @@ b = int(data[1])
 c = int(data[2])
 n = a * b 
 if n == c:
-    print("YES")
+    h = "YES"
 else:
-    print("NO")
-n = str(n)
+   h = "NO"
 output_data = open("output.txt","w")
-output_data.write(n)
+output_data.write(h)
 input_data.close()
 output_data.close()
